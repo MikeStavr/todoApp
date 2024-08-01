@@ -3,7 +3,7 @@ import TodoApp from "./components/TodoApp";
 function App() {
   return (
     <>
-      <div className="absolute right-0 mr-2">
+      <div className=" absolute right-0 mt-16 md:mr-2 md:mt-0">
         <label className="swap swap-rotate">
           {/* this hidden checkbox controls the state */}
           <input type="checkbox" className="theme-controller" value="dark" />
